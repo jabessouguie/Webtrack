@@ -1,0 +1,110 @@
+<doctype html>
+    
+    <html>
+        <head>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">        
+            <link rel="stylesheet" href="monStyle.css?=time()">     
+            <script src="monScript.js"></script>
+        </head>
+    </html>
+    <body onload="refill()">
+        <header>
+            <nav class="navTop">
+                <div class="row">                
+                    <div class="col-ld-12 col-md-12 col-xs-12"> <div id="emptyLine"><br></div>                
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">            
+                    </div>
+                    <div id ="titrePage" class="alert alert-secondary col-xs-4">
+                            Le Jeu du Taquin
+                    </div>
+                    <div class="col-md-4">            
+                    </div>
+                </div>
+                <div class="row">                
+                    <div class="col-ld-12 col-md-12 col-xs-12"> <div id="emptyLine"><br></div>                
+                    </div>
+                </div>
+                <div class="row">                
+                    <div class="col-ld-12 col-md-12 col-xs-12"> <div id="emptyLine"><br></div>                
+                    </div>
+                </div>
+            </nav>            
+        </header>
+        
+        <div id="matrix" class ="container-fluid">                        
+            <div class="row">
+                <div class="col-md-4">            
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('0');">1</button>                               
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('1');">2</button>              
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('2');">3</button>              
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('3');">4</button>             
+                </div>
+                <div class="col-md-4"> 
+                </div>            
+            </div>
+            <div class="row">
+                <div class="col-md-4">            
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('4');">5</button>                               
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('5');">6</button>              
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('6');">7</button>              
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('7');">8</button>             
+                </div>
+                <div class="col-md-4"> 
+                </div>            
+            </div>
+            <div class="row">
+                <div class="col-md-4">            
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('8');">9</button>                               
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('9');">10</button>              
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('10');">11</button>              
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('11');">12</button>             
+                </div>
+                <div class="col-md-4"> 
+                </div>            
+            </div>
+            <div class="row">
+                <div class="col-md-4">            
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('12');">13</button>              
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('13');">14</button>              
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-info cell" onmouseover="moveElement('14');">15</button>              
+                </div>
+                <div class="col-md-1 col-xs-1"> <button type="button" class="btn btn-danger" onmouseover="moveElement(15);">*</button>             
+                </div>
+                <div class="col-md-4"> 
+                </div>            
+            </div>
+        </div>
+        <div  class = "container-fluid">
+            <div class="row">
+                <div class="col-md-4">            
+                </div>
+                <div id="divRefill" class="alert alert-secondary col-xs-4 col-md-4">
+                        <button id='btRefill' class="btn btn-warning" onclick="window.location.reload(false);">Relancer jeu</button>
+                </div>
+                <div class="col-md-4">            
+                </div>
+            </div>
+        </div>
+        <footer>        
+        </footer>        
+    </body>
+    </doctype>

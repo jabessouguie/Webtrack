@@ -1,0 +1,33 @@
+.btn-info, .btn-danger, .btn-success{
+    width: 100%;
+    margin: 2px;
+    font-size: 22;
+    font-weight: bold;
+    height: 100px;
+}
+
+.col-md-1,.col-xs-1{    
+    padding: 2px;
+}
+
+#emptyLine{
+    height: 30px;
+}
+
+#titrePage{
+    margin:auto;
+    font-family: verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30;
+    font-stretch:expanded;
+    text-align: center;
+    vertical-align: middle
+}
+
+#btRefill{
+    width: 40%;
+    margin: auto;        
+}
+
+#divRefill{   
+    padding: 10px;    
+}
